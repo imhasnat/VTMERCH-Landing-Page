@@ -29,10 +29,11 @@ Check out the live version of the project here:
    git clone https://github.com/imhasnat/VTMERCH-Landing-Page.git
    ```
 
-````
+`````
 2. Navigate to the project folder:
-```bash
-   cd VTMERCH-Landing-Page
-````
+    ```bash
+    cd VTMERCH-Landing-Page
+    ````
 
-3.Open **index.html** in your browser to view the project locally.
+3. Open **index.html** in your browser to view the project locally.
+`````
