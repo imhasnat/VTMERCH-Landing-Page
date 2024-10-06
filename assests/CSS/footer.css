@@ -1,0 +1,137 @@
+#footer {
+  background-color: #000;
+}
+
+#footer .img_txt_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 3rem;
+}
+
+#footer h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #fff;
+}
+
+#footer .break_line {
+  width: 100%;
+  margin: 32px 0 48px;
+  border: 1px solid #a6a5a3;
+}
+
+#footer p,
+#footer li {
+  color: white;
+}
+
+#footer .middle_content {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 100px;
+}
+
+#footer .left_content {
+  font-size: 1.5rem;
+}
+
+#footer .btn_container {
+  margin-top: 3rem;
+}
+
+#footer .btn_email {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #a6a5a3;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease,
+    transform 0.3s ease;
+}
+
+#footer .btn_subscribe {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#footer .btn_email:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+  transform: scale(1.05);
+}
+
+#footer .btn_subscribe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #a6a5a3;
+  background: transparent;
+  color: #fff;
+}
+
+#footer .right_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#footer .right_content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#footer .right_content a,
+#footer .right_content p,
+#footer .rights p {
+  text-decoration: none;
+  color: #ffffffab;
+}
+
+#footer .list_title {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+#footer li {
+  margin-bottom: 16px;
+}
+
+#footer .social_icon,
+#footer .contact_icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+
+#footer .rights {
+  padding: 120px 0 47px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .payment_icon {
+  display: flex;
+  gap: 5px;
+}
+
+/* Hover effect for sign_btn */
+#sign_collection .sign_btn {
+  max-width: 186px;
+  width: 100%;
+  padding: 17px 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+}

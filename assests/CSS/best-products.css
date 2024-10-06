@@ -1,0 +1,43 @@
+#best_product {
+  background-color: #f6f5f5;
+  padding-top: 101px;
+}
+
+#best_product h2 {
+  font-size: 4.325rem;
+  font-weight: bold;
+}
+
+#best_product .text_outline {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+
+#best_product .card_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 48px 0 120px;
+}
+
+#best_product .card {
+  padding: 16px;
+}
+
+#best_product .card_body {
+  margin-top: 20px;
+}
+
+#best_product .card_img {
+  border-radius: 8px;
+}
+
+#best_product .price {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#best_product strike {
+  color: #9b9b9b;
+  font-size: 18px;
+}

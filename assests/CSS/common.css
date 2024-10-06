@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Act Of Rejection";
+  src: url("/assests/Font/Act_Of_Rejection.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.button {
+  border-radius: 12px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+}
+
+#footer .left_content p,
+#footer h1,
+#our_mission h3,
+#sign_collection h2,
+#sign_collection h3,
+#navbar_container h1,
+#best_product h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#footer p,
+#footer li,
+#footer .btn_email,
+#footer .btn_subscribe,
+#sign_collection .sign_btn,
+.card_body h5,
+.card_body span {
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

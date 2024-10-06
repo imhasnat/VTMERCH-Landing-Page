@@ -1,0 +1,56 @@
+#sign_collection {
+  background-color: #111111;
+}
+
+#sign_collection h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+#sign_collection h2 {
+  font-size: 4.325rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #de2a2f, #ef5256);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sign_collection {
+  background-color: #111111;
+}
+
+#sign_collection .btn_container {
+  margin: 48px 0 24px;
+}
+
+#sign_collection .sign_btn {
+  max-width: 186px;
+  width: 100%;
+  padding: 17px 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#sign_collection .sign_btn:hover {
+  transform: scale(1.05);
+  background-color: #ef5256;
+  color: #fff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#sign_collection .collection_container {
+  padding: 130px 0 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sign_collection .right_content {
+  display: flex;
+  align-items: center;
+}

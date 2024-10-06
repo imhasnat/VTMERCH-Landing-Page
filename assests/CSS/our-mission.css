@@ -1,0 +1,35 @@
+#our_mission {
+  background: linear-gradient(90deg, #de2a2f 0%, #ef5256 100%);
+}
+
+#our_mission .container {
+  position: relative;
+}
+
+#our_mission .mission_content {
+  padding: 200px 0 177px;
+  display: grid;
+  grid-template-columns: 60% 30%;
+  position: relative;
+}
+
+#our_mission .quoate {
+  position: absolute;
+  left: -40px;
+  top: 0;
+  margin-top: 50px;
+}
+
+#our_mission .pointing_man {
+  max-width: 520px;
+  width: 100%;
+  position: absolute;
+  top: -30%;
+}
+
+#our_mission h3 {
+  color: #fff;
+  font-size: 2.125rem;
+  font-weight: 600;
+  z-index: 1;
+}

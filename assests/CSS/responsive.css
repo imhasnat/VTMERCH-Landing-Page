@@ -1,0 +1,271 @@
+@media screen and (max-width: 1520px) {
+  #sign_collection .red_book {
+    max-width: 280px;
+    width: 100%;
+  }
+
+  #sign_collection .white_book {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  #sign_collection .signature {
+    max-width: 650px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #our_mission .mission_content {
+    padding: 170px 0 126px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  #navbar_container h1 {
+    font-size: 5rem;
+  }
+
+  #best_product h2 {
+    font-size: 3.5rem;
+  }
+
+  #our_mission .pointing_man {
+    max-width: 450px;
+  }
+
+  #our_mission .mission_content {
+    padding: 150px 0 113px;
+  }
+
+  #our_mission .quoate {
+    position: absolute;
+    margin-top: 0;
+  }
+
+  #sign_collection h3 {
+    font-size: 3rem;
+  }
+
+  #sign_collection h2 {
+    font-size: 3rem;
+  }
+
+  #footer h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #our_mission .mission_content {
+    padding: 126px 0 61px;
+  }
+
+  #sign_collection .white_book {
+    max-width: 250px;
+  }
+
+  #sign_collection .red_book {
+    max-width: 230px;
+  }
+
+  #sign_collection .signature {
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  #our_mission .pointing_man {
+    max-width: 420px;
+  }
+
+  #our_mission .mission_content {
+    padding: 110px 0 82px;
+  }
+
+  #our_mission h3 {
+    font-size: 2rem;
+  }
+
+  #our_mission .pointing_man {
+    top: -36%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #future_looks h1 {
+    font-size: 55px;
+  }
+
+  #future_looks .slider_container {
+    margin-top: -30px;
+  }
+
+  #best_product h2 {
+    font-size: 3rem;
+  }
+
+  #best_product .card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #sign_collection .collection_container {
+    flex-direction: column;
+  }
+
+  #sign_collection .right_content {
+    justify-content: center;
+  }
+
+  #our_mission .mission_content {
+    padding: 110px 0 0px;
+  }
+
+  #our_mission .pointing_man {
+    position: relative;
+    z-index: 1;
+  }
+
+  #our_mission .mission_content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #our_mission .left_content {
+    position: relative;
+    order: 1;
+    margin-top: -160px;
+    margin-bottom: 60px;
+  }
+
+  #our_mission .right_content {
+    order: 0;
+  }
+
+  #our_mission .quoate {
+    left: -50px;
+    top: -120%;
+  }
+
+  #footer .middle_content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  #footer .left_content {
+    max-width: 75%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #navbar_container h1 {
+    font-size: 50px;
+  }
+
+  #our_mission .quoate {
+    top: -75%;
+  }
+
+  #footer h1 {
+    font-size: 45px;
+  }
+
+  #footer .right_content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  #footer li {
+    margin-bottom: 10px;
+  }
+
+  #footer .list_title {
+    margin-bottom: 20px;
+  }
+
+  #footer .rights {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #future_looks {
+    padding: 60px 0 60px;
+  }
+
+  #navbar_container {
+    padding: 40px 12px 0;
+  }
+
+  #best_product {
+    padding-top: 60px;
+  }
+
+  #best_product h2 {
+    font-size: 2rem;
+  }
+
+  #best_product .card_container {
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
+  }
+
+  #sign_collection h3 {
+    font-size: 30px;
+  }
+
+  #sign_collection h2 {
+    font-size: 3rem;
+  }
+
+  #sign_collection .collection_container {
+    padding: 60px 0 100px;
+  }
+
+  #sign_collection .right_content {
+    flex-direction: column;
+  }
+
+  #our_mission .quoate {
+    top: -45%;
+    left: -5%;
+  }
+
+  #footer .left_content {
+    font-size: 18px;
+  }
+
+  #footer .btn_container {
+    margin-top: 2rem;
+  }
+
+  #footer .left_content {
+    max-width: 100%;
+  }
+
+  #footer .rights {
+    padding: 80px 0 47px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #footer .img_txt_container,
+  #navbar_container .img_txt_container {
+    gap: 5px;
+  }
+
+  #navbar .hamburger {
+    width: 30px;
+  }
+
+  #footer .logo,
+  #navbar_container .logo {
+    max-width: 70px;
+  }
+
+  #footer .img_txt_container h1,
+  #navbar_container h1 {
+    font-size: 40px;
+  }
+}

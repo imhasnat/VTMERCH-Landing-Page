@@ -1,0 +1,77 @@
+#future_looks {
+  background-color: #ea2127;
+  padding: 120px 0 60px;
+  overflow-x: hidden;
+}
+
+#future_looks h1 {
+  font-size: 75px;
+  font-family: "Act Of Rejection", sans-serif;
+  color: #f27a7d;
+}
+
+#future_looks .card {
+  background-color: #ea2127;
+  border: none;
+}
+
+#future_looks .card_img {
+  border-radius: 12px;
+  overflow: hidden;
+  width: 357px;
+  height: 397px;
+  object-fit: cover;
+}
+
+#future_looks .card_body {
+  margin-top: 16px;
+}
+
+#future_looks strike {
+  font-size: 18px;
+}
+
+#future_looks h5,
+#future_looks .price {
+  color: #fff;
+}
+
+#future_looks .price {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#future_looks .slider_container {
+  /* transform: translate3d(-19%, 0px, 0px); */
+  margin-top: -45px;
+  padding-left: 40px;
+}
+
+#future_looks .swiper-slide {
+  max-width: 320px !important;
+  width: 100% !important;
+}
+
+#future_looks .swiper {
+  overflow: unset;
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-container {
+  background-color: #ea2127;
+  padding-bottom: 30px;
+}

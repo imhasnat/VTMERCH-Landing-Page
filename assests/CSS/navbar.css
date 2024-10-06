@@ -1,0 +1,23 @@
+#navbar_container {
+  display: flex;
+  padding: 50px 62px 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ea2127;
+}
+#navbar_container .img_txt_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#navbar_container .logo {
+  max-width: 115px;
+  width: 100%;
+}
+
+#navbar_container h1 {
+  font-size: 7rem;
+  font-weight: 900;
+  color: white;
+}
