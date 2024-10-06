@@ -9,6 +9,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+}
+
+#navbar_container a {
+  text-decoration: none;
 }
 
 #navbar_container .logo {
