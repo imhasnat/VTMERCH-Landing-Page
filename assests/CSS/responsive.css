@@ -163,6 +163,10 @@
     font-size: 50px;
   }
 
+  #navbar_container .hamburger {
+    font-size: 30px;
+  }
+
   #our_mission .quoate {
     top: -75%;
   }
@@ -190,6 +194,16 @@
 }
 
 @media screen and (max-width: 575px) {
+  .dropdown_menu {
+    top: 110px;
+    right: 40px;
+    width: 80%;
+  }
+
+  #navbar_container .dropdown_menu ul li a {
+    font-size: 16px;
+  }
+
   #future_looks {
     padding: 60px 0 60px;
   }
